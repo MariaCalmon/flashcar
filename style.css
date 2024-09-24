@@ -1,0 +1,35 @@
+:root {
+     -moz-text-decoration-color: purple;
+     -webkit-text-fill-color: black;
+     -webkit-text-stroke-color: aquamarine;
+}
+
+body{
+    background-color: bisque;
+    font-family: bai jamjure;
+}
+
+#container{
+display: flex;
+}
+
+.cartao{
+    margin: 1rem 1rem;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao_conteudo{
+    background-color: beige;
+    text-align: center;
+    height: 100%;
+}
+
+.cartao_conteudo h3{
+    color: var(-moz-text-decoration-color);
+    bonder: 1px solid var(-moz-text-decoration-color)
+    text-align;left:
+    
+}
+
